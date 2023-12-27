@@ -16,6 +16,12 @@ label {
 }
 
 img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     max-width: 25%;
     max-height: 25%;
     padding: 1%;
