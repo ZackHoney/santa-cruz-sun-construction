@@ -63,4 +63,47 @@ table {
         border-radius:10%;
     }
 
-    
+.header {
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.title {
+    color: red;
+    font-size: 65px;
+    background-color: purple;
+
+}
+
+nav {
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: orange;
+    padding: 2px;
+    margin: 10px;
+}
+
+button {
+    width: 15%;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    background-color: pink;
+    border: 0;
+    border-radius: 10px;
+}
+
+button .button {
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+
