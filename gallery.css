@@ -13,20 +13,30 @@ header {
     justify-content: center;
 }
 
+
+
+button {
+    font-size: 20px;
+    padding:5px;
+    margin:10px;
+
+}
+
 h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: red;
+    font-size: 65px;
 }
 
 div {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    
+
 }
 
 img {
@@ -34,5 +44,5 @@ img {
     max-height: 25%;
     padding: 1%;
     margin: 1%;
-    background-color: lightseagreen;
+    background-color: rgb(154, 32, 178);
 }
