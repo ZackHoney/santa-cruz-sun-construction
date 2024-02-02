@@ -158,6 +158,10 @@ label {
     background-color: blue;
 }
 
+h2{
+    font-size: 30px;
+}
+
 .title {
     color: red;
     font-size: 65px;
@@ -192,13 +196,14 @@ button .button {
 }
 
 img {
-    border-color: red;
+    border: 1px red;
     border: 5px;
     margin: 2px;
     padding: 2px;
 }
 
 .gallery {
+    border: 1px red;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -208,6 +213,8 @@ img {
 }
 
 .gallery .images {
+    border: 1px red;
+
     max-width: 25%;
     max-height: 25%;
     padding: 2px;
